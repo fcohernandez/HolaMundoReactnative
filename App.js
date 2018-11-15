@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Alert, AppRegistry, Button, StyleSheet, View, Text, TextInput } from 'react-native';
+import { Alert, AppRegistry, Button, StyleSheet, View, Text} from 'react-native';
 
 export default class Test extends Component {
 
@@ -28,11 +28,6 @@ export default class Test extends Component {
             color="#841584"
           />
         </View>
-        <TextInput
-          style={{height: 40, textAlign: 'center'}}
-          placeholder="Type here to translate!"
-          onChangeText={(text) => this.setState({text})}
-        />
       </View>
     );
   }
